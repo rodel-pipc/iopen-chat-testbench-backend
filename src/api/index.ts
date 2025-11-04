@@ -14,6 +14,6 @@ router.get<object, MessageResponse>("/", (req, res) => {
 });
 
 router.use("/emojis", emojis);
-router.use("/user", auth);
+router.use("/auth", auth);
 
 export default router;
