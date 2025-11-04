@@ -1,7 +1,9 @@
 import cors from "cors";
+import 'dotenv/config'
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
+
 
 import type MessageResponse from "./interfaces/message-response.js";
 
